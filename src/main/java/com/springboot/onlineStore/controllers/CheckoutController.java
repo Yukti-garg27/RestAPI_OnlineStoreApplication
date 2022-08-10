@@ -47,7 +47,7 @@ public class CheckoutController {
 
 		ordersService.placeOrders(orders);
 
-		return "Order placed successfully!!";
+		return "success";
 
 	}
 	

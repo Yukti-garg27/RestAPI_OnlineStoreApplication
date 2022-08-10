@@ -74,13 +74,13 @@ public class OnlineStoreApplication implements WebMvcConfigurer {
                         "computer-monitor_640x426.jpeg",
                         299f,
                         "electronics"
-                ),
-                new Product("Audio Speakers",
-                        "Stereo speakers for listening to music at home",
-                        "speakers.jpeg",
-                        89f,
-                        "electronics"
-                ));
+                )
+//                ,new Product("Audio Speakers",
+//                        "Stereo speakers for listening to music at home",
+//                        "speakers.jpeg",
+//                        89f,
+//                        "electronics")
+        		);
 
         Product art = new Product("Color Markers",
                 "Four high quality markers for any art project",

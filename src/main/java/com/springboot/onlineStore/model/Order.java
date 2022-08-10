@@ -27,7 +27,8 @@ public class Order {
     public Order() {
     }
 
-    public Order(String firstName, String lastName, String email, String shippingAddress, long quantity, Product product, String creditCard) {
+    public Order(String firstName, String lastName, String email,
+    		String shippingAddress, long quantity, Product product, String creditCard) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;

@@ -14,7 +14,8 @@ public class CheckoutRequest {
 
     private String creditCard;
 
-    public CheckoutRequest(String name, String lastName, String email, String shippingAddress, List<ProductInfo> products, String creditCard) {
+    public CheckoutRequest(String name, String lastName, String email, 
+    		String shippingAddress, List<ProductInfo> products, String creditCard) {
         this.firstName = name;
         this.lastName = lastName;
         this.email = email;
